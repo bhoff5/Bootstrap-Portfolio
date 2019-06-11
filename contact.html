@@ -10,12 +10,10 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
-
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top p-0 pt-5">
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top p-0 pt-5 shadow ">
         <div class="container p-0">
-            <div class="navbar-brand bg-info p-3 text-white">
+            <div class="navbar-brand bg-info p-3 text-white rounded-top">
                 <h1>Brian Hoff</h1>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -40,42 +38,46 @@
     </div>
     <div class="container">
         <div class="row mt-5">
-            <div class="col shadow p-3 mb-5 bg-white rounded">
-                <p>About Me</p>
-                <p>Lorem ipsum dolor amet poutine kale chips tousled banjo street art. Thundercats waistcoat shaman,
-                    truffaut ramps copper mug cliche gentrify whatever hell of knausgaard. Chillwave succulents
-                    adaptogen, YOLO street art keytar fingerstache letterpress knausgaard put a bird on it pork belly
-                    marfa. Hammock iPhone iceland cloud bread cardigan, intelligentsia woke umami. Biodiesel direct
-                    trade live-edge, pug kitsch butcher hot chicken quinoa venmo cold-pressed kogi intelligentsia
-                    authentic.</p>
-                <p>
-                    Knausgaard ethical scenester pickled, tattooed paleo roof party keytar woke. Tilde af try-hard
-                    gluten-free, wayfarers sustainable art party. Typewriter kickstarter umami fam shaman helvetica tofu
-                    hammock pitchfork banh mi succulents freegan biodiesel affogato vice. Poutine narwhal put a bird on
-                    it, four loko tofu kogi church-key crucifix hashtag pinterest normcore cliche. Williamsburg truffaut
-                    tumblr vegan, bicycle rights brooklyn readymade brunch. Chia you probably haven't heard of them
-                    schlitz knausgaard tbh tofu seitan air plant kale chips truffaut selvage kogi.</p>
-                <p>
-                    Squid fingerstache brooklyn jianbing sustainable, iPhone yr live-edge retro offal cornhole.
-                    Vaporware jianbing offal, vegan artisan pour-over taxidermy salvia man braid selfies pickled austin
-                    sustainable banjo af. Pok pok irony vaporware, paleo taiyaki air plant fashion axe hammock swag
-                    edison bulb yuccie microdosing DIY authentic. IPhone gastropub direct trade occupy keytar before
-                    they sold out distillery cardigan.</p>
-                <p>
-                    Irony letterpress austin craft beer, lomo williamsburg fashion axe aesthetic copper mug affogato
-                    banh mi distillery. Unicorn artisan yuccie distillery, scenester synth fam. Copper mug tbh
-                    gastropub, ugh swag health goth pok pok ethical tilde gentrify tumeric. Flexitarian truffaut prism
-                    marfa snackwave. Vegan four dollar toast neutra bicycle rights shabby chic you probably haven't
-                    heard of them cronut keytar stumptown selvage.</p>
-                <p>
-                    Wayfarers tote bag four loko ennui gochujang kombucha coloring book you probably haven't heard of
-                    them church-key vaporware thundercats chicharrones polaroid vegan crucifix. Kombucha hot chicken
-                    paleo distillery cronut blog raw denim, viral pitchfork 90's vape raclette readymade marfa
-                    adaptogen. Humblebrag tilde roof party, snackwave echo park chicharrones cliche tousled drinking
-                    vinegar succulents vice. Fam tattooed kinfolk flexitarian kogi.</p>
+            <div class="col shadow p-5 mb-5 bg-light">
+                <div class="row p-3 text-info">
+                    <h1>About Me</h1>
+                </div>
+                <hr>
+                <div class="form-box">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input class="form-control" id="name" type="text" name="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input class="form-control" id="email" type="email" name="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="Message"></textarea>
+                        </div>
+                        <input class="btn btn-primary" type="submit" value="Submit" />
+                </div>
+                </form>
             </div>
         </div>
     </div>
+    </div>
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
